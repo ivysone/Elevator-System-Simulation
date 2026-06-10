@@ -147,12 +147,3 @@ class PriorityQueue:
                     new_heap.insert(n)
                 self.heap = new_heap
                 return
-
-# GLOBAL VARIABLES
-up_queue = Queue()
-down_queue = Queue()
-priority_floors = PriorityQueue()
-current_time = 0
-WAIT_THRESHOLD = 5
-up_queue_times = {}
-down_queue_times = {}
